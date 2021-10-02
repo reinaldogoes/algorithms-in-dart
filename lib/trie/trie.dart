@@ -1,5 +1,7 @@
-/// Trie is an ordered tree data structure used to store a dynamic set
-///  or associative array where the keys are usually strings.
+/// Trie is an ordered tree data structure used to store a dynamic set or
+/// associative array where the keys are usually strings.
+/// Trie é uma estrutura de dados em árvore ordenada usada para armazenar um
+/// conjunto dinâmico ou array associativo onde as chaves são geralmente strings.
 class Trie<V extends Comparable> {
   /// Root of the trie.
   TrieNode? root;

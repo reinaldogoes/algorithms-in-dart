@@ -1,5 +1,6 @@
-/// `binarySearch` searches for `needle` in `hayStack` by the Binary Search
-/// algorithm
+/// `binarySearch` searches for 'needle' in 'hayStack' by the Binary Search algorithm
+/// `binarySearch` procura por 'agulha' em 'hayStack' pelo algoritmo de pesquisa binária
+
 int binarySearch<T extends Comparable>(List<T> hayStack, T needle) {
   var min = 0;
   var max = hayStack.length;
